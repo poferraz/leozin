@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Scripts (not needed in production)
+*.sh
+generate_gallery_data.sh
+optimize_portfolio.sh
+optimize_videos.sh
+optimize_videos_simple.sh
+
+# Documentation
+OPTIMIZATION_README.md
+
+# Backup files
+leonardo-veiga-portfolio.html
+optimized-portfolio-demo.html
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

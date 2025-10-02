@@ -1,0 +1,456 @@
+Portfolio Media Optimization Log
+Generated: Thu Oct  2 13:13:51 PDT 2025
+========================================
+
+Processing analog images from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/FOTOS/FOTOS ANALOGICAS
+-------------------------------------------
+  Original: analog-film-photography-05.jpg (738.6KB)
+    small (600px): 55.8KB (-100.0%)
+    medium (1200px): 236.7KB (-70.0%)
+    large (1920px): 562.3KB (-30.0%)
+    WebP: 205.2KB
+
+  Original: analog-film-photography-04.jpg (611.4KB)
+    small (600px): 42.0KB (-100.0%)
+    medium (1200px): 191.7KB (-70.0%)
+    large (1920px): 491.8KB (-20.0%)
+    WebP: 147.2KB
+
+  Original: analog-film-photography-03.jpg (663.8KB)
+    small (600px): 43.8KB (-100.0%)
+    medium (1200px): 210.2KB (-70.0%)
+    large (1920px): 508.0KB (-30.0%)
+    WebP: 171.7KB
+
+  Original: analog-film-photography-02.jpg (558.2KB)
+    small (600px): 59.7KB (-90.0%)
+    medium (1200px): 226.7KB (-60.0%)
+    large (1920px): 533.6KB (-10.0%)
+    WebP: 181.8KB
+
+  Original: analog-film-photography-01.jpg (487.5KB)
+    small (600px): 33.0KB (-100.0%)
+    medium (1200px): 142.3KB (-80.0%)
+    large (1920px): 417.9KB (-20.0%)
+    WebP: 251.9KB
+
+Processing mushrooms images from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/FOTOS/FOTOS COGUMELOS
+-------------------------------------------
+  Original: mushroom-photography-editorial-14.jpg (17.6MB)
+    small (600px): 87.5KB (-100.0%)
+    medium (1200px): 165.1KB (-100.0%)
+    large (1920px): 286.1KB (-100.0%)
+    WebP: 72.8KB
+
+  Original: mushroom-photography-editorial-01.png (27.9MB)
+    small (600px): 12.3KB (-100.0%)
+    medium (1200px): 34.5KB (-100.0%)
+    large (1920px): 72.4KB (-100.0%)
+    WebP: 27.0KB
+
+  Original: mushroom-photography-editorial-15.png (20.2MB)
+    small (600px): 23.1KB (-100.0%)
+    medium (1200px): 64.9KB (-100.0%)
+    large (1920px): 135.1KB (-100.0%)
+    WebP: 68.3KB
+
+  Original: mushroom-photography-editorial-17.png (17.4MB)
+    small (600px): 20.6KB (-100.0%)
+    medium (1200px): 62.0KB (-100.0%)
+    large (1920px): 134.6KB (-100.0%)
+    WebP: 40.9KB
+
+  Original: mushroom-photography-editorial-03.jpg (16.0MB)
+    small (600px): 89.5KB (-100.0%)
+    medium (1200px): 174.1KB (-100.0%)
+    large (1920px): 309.1KB (-100.0%)
+    WebP: 87.7KB
+
+  Original: mushroom-photography-editorial-16.png (28.2MB)
+    small (600px): 29.7KB (-100.0%)
+    medium (1200px): 88.8KB (-100.0%)
+    large (1920px): 192.2KB (-100.0%)
+    WebP: 117.7KB
+
+  Original: mushroom-photography-editorial-02.png (25.2MB)
+    small (600px): 13.2KB (-100.0%)
+    medium (1200px): 36.2KB (-100.0%)
+    large (1920px): 74.3KB (-100.0%)
+    WebP: 28.4KB
+
+  Original: mushroom-photography-editorial-12.jpg (18.5MB)
+    small (600px): 71.6KB (-100.0%)
+    medium (1200px): 126.1KB (-100.0%)
+    large (1920px): 215.8KB (-100.0%)
+    WebP: 44.3KB
+
+  Original: mushroom-photography-editorial-06.jpg (13.6MB)
+    small (600px): 73.1KB (-100.0%)
+    medium (1200px): 136.9KB (-100.0%)
+    large (1920px): 248.7KB (-100.0%)
+    WebP: 63.0KB
+
+  Original: mushroom-photography-editorial-07.jpg (5.5MB)
+    small (600px): 53.3KB (-100.0%)
+    medium (1200px): 100.5KB (-100.0%)
+    large (1920px): 178.1KB (-100.0%)
+    WebP: 43.1KB
+
+  Original: mushroom-photography-editorial-13.jpg (20.6MB)
+    small (600px): 84.2KB (-100.0%)
+    medium (1200px): 153.8KB (-100.0%)
+    large (1920px): 271.6KB (-100.0%)
+    WebP: 63.2KB
+
+  Original: mushroom-photography-editorial-11.png (36.0MB)
+    small (600px): 38.1KB (-100.0%)
+    medium (1200px): 110.2KB (-100.0%)
+    large (1920px): 232.1KB (-100.0%)
+    WebP: 77.6KB
+
+  Original: mushroom-photography-editorial-05.jpg (15.0MB)
+    small (600px): 79.4KB (-100.0%)
+    medium (1200px): 145.1KB (-100.0%)
+    large (1920px): 257.4KB (-100.0%)
+    WebP: 71.9KB
+
+  Original: mushroom-photography-editorial-04.jpg (11.4MB)
+    small (600px): 80.8KB (-100.0%)
+    medium (1200px): 150.7KB (-100.0%)
+    large (1920px): 253.6KB (-100.0%)
+    WebP: 120.4KB
+
+  Original: mushroom-photography-editorial-10.png (35.8MB)
+    small (600px): 39.4KB (-100.0%)
+    medium (1200px): 112.3KB (-100.0%)
+    large (1920px): 235.2KB (-100.0%)
+    WebP: 77.9KB
+
+  Original: mushroom-photography-editorial-21.png (3.0MB)
+    small (600px): 58.9KB (-100.0%)
+    medium (1200px): 200.6KB (-100.0%)
+    large (1920px): 381.3KB (-90.0%)
+    WebP: 165.5KB
+
+  Original: mushroom-photography-editorial-09.png (34.6MB)
+    small (600px): 42.3KB (-100.0%)
+    medium (1200px): 120.4KB (-100.0%)
+    large (1920px): 250.7KB (-100.0%)
+    WebP: 82.2KB
+
+  Original: mushroom-photography-editorial-08.png (40.2MB)
+    small (600px): 52.2KB (-100.0%)
+    medium (1200px): 152.3KB (-100.0%)
+    large (1920px): 320.8KB (-100.0%)
+    WebP: 117.7KB
+
+  Original: mushroom-photography-editorial-20.png (4.2MB)
+    small (600px): 50.8KB (-100.0%)
+    medium (1200px): 171.1KB (-100.0%)
+    large (1920px): 429.7KB (-100.0%)
+    WebP: 264.6KB
+
+  Original: mushroom-photography-editorial-22.png (3.2MB)
+    small (600px): 63.8KB (-100.0%)
+    medium (1200px): 213.2KB (-100.0%)
+    large (1920px): 393.2KB (-90.0%)
+    WebP: 175.3KB
+
+  Original: mushroom-photography-editorial-23.png (3.2MB)
+    small (600px): 49.6KB (-100.0%)
+    medium (1200px): 160.2KB (-100.0%)
+    large (1920px): 338.6KB (-90.0%)
+    WebP: 237.3KB
+
+  Original: mushroom-photography-editorial-27.png (3.6MB)
+    small (600px): 51.3KB (-100.0%)
+    medium (1200px): 162.4KB (-100.0%)
+    large (1920px): 360.4KB (-100.0%)
+    WebP: 195.9KB
+
+  Original: mushroom-photography-editorial-26.png (4.3MB)
+    small (600px): 56.5KB (-100.0%)
+    medium (1200px): 199.4KB (-100.0%)
+    large (1920px): 505.4KB (-90.0%)
+    WebP: 312.7KB
+
+  Original: mushroom-photography-editorial-18.png (2.8MB)
+    small (600px): 40.0KB (-100.0%)
+    medium (1200px): 142.6KB (-100.0%)
+    large (1920px): 309.1KB (-90.0%)
+    WebP: 211.8KB
+
+  Original: mushroom-photography-editorial-24.png (4.3MB)
+    small (600px): 56.6KB (-100.0%)
+    medium (1200px): 184.1KB (-100.0%)
+    large (1920px): 396.4KB (-100.0%)
+    WebP: 282.4KB
+
+  Original: mushroom-photography-editorial-25.png (2.5MB)
+    small (600px): 44.4KB (-100.0%)
+    medium (1200px): 126.8KB (-100.0%)
+    large (1920px): 211.0KB (-100.0%)
+    WebP: 90.8KB
+
+  Original: mushroom-photography-editorial-19.png (4.6MB)
+    small (600px): 68.8KB (-100.0%)
+    medium (1200px): 233.8KB (-100.0%)
+    large (1920px): 501.2KB (-90.0%)
+    WebP: 370.2KB
+
+Processing crows images from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/FOTOS/FOTOS CORVOS
+-------------------------------------------
+  Original: crow-bird-photography-01.jpg (359.1KB)
+    small (600px): 52.8KB (-90.0%)
+    medium (1200px): 100.9KB (-80.0%)
+    large (1920px): 100.9KB (-80.0%)
+    WebP: 69.3KB
+
+  Original: crow-bird-photography-02.jpg (418.2KB)
+    small (600px): 48.5KB (-90.0%)
+    medium (1200px): 87.2KB (-80.0%)
+    large (1920px): 87.2KB (-80.0%)
+    WebP: 51.9KB
+
+  Original: crow-bird-photography-03.jpg (361.8KB)
+    small (600px): 45.6KB (-90.0%)
+    medium (1200px): 74.3KB (-80.0%)
+    large (1920px): 74.3KB (-80.0%)
+    WebP: 38.6KB
+
+  Original: crow-bird-photography-13.jpg (203.0KB)
+    small (600px): 46.6KB (-80.0%)
+    medium (1200px): 66.1KB (-70.0%)
+    large (1920px): 66.1KB (-70.0%)
+    WebP: 30.5KB
+
+  Original: crow-bird-photography-07.jpg (428.7KB)
+    small (600px): 131.1KB (-70.0%)
+    medium (1200px): 247.7KB (-50.0%)
+    large (1920px): 247.7KB (-50.0%)
+    WebP: 146.0KB
+
+  Original: crow-bird-photography-06.jpg (566.5KB)
+    small (600px): 134.9KB (-80.0%)
+    medium (1200px): 271.7KB (-60.0%)
+    large (1920px): 271.7KB (-60.0%)
+    WebP: 178.0KB
+
+  Original: crow-bird-photography-12.jpg (460.8KB)
+    small (600px): 52.5KB (-90.0%)
+    medium (1200px): 90.4KB (-90.0%)
+    large (1920px): 90.4KB (-90.0%)
+    WebP: 48.8KB
+
+  Original: crow-bird-photography-04.jpg (442.0KB)
+    small (600px): 122.1KB (-80.0%)
+    medium (1200px): 246.9KB (-50.0%)
+    large (1920px): 246.9KB (-50.0%)
+    WebP: 249.4KB
+
+  Original: crow-bird-photography-10.jpg (284.0KB)
+    small (600px): 48.7KB (-90.0%)
+    medium (1200px): 78.5KB (-80.0%)
+    large (1920px): 78.5KB (-80.0%)
+    WebP: 17.8KB
+
+  Original: crow-bird-photography-11.jpg (573.0KB)
+    small (600px): 76.5KB (-90.0%)
+    medium (1200px): 154.6KB (-80.0%)
+    large (1920px): 154.6KB (-80.0%)
+    WebP: 142.5KB
+
+  Original: crow-bird-photography-05.jpg (480.9KB)
+    small (600px): 128.0KB (-80.0%)
+    medium (1200px): 262.2KB (-50.0%)
+    large (1920px): 262.2KB (-50.0%)
+    WebP: 172.0KB
+
+  Original: crow-bird-photography-08.jpg (428.7KB)
+    small (600px): 131.1KB (-70.0%)
+    medium (1200px): 247.7KB (-50.0%)
+    large (1920px): 247.7KB (-50.0%)
+    WebP: 146.0KB
+
+  Original: crow-bird-photography-09.jpg (295.9KB)
+    small (600px): 50.6KB (-90.0%)
+    medium (1200px): 84.4KB (-80.0%)
+    large (1920px): 84.4KB (-80.0%)
+    WebP: 20.3KB
+
+Processing iphone images from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/FOTOS/FOTOS IPHONE
+-------------------------------------------
+  Original: iphone-photography-01.jpeg (201.4KB)
+    small (600px): 59.7KB (-80.0%)
+    medium (1200px): 205.2KB (-0%)
+    large (1920px): 207.4KB (-0%)
+    WebP: 133.8KB
+
+  Original: iphone-photography-05.JPG (12.6MB)
+    small (600px): 61.6KB (-100.0%)
+    medium (1200px): 108.2KB (-100.0%)
+    large (1920px): 201.1KB (-100.0%)
+    WebP: 34.1KB
+
+  Original: iphone-photography-11.PNG (27.1MB)
+    small (600px): 77.6KB (-100.0%)
+    medium (1200px): 218.7KB (-100.0%)
+    large (1920px): 466.5KB (-100.0%)
+    WebP: 315.2KB
+
+  Original: iphone-photography-10.PNG (26.1MB)
+    small (600px): 77.9KB (-100.0%)
+    medium (1200px): 248.8KB (-100.0%)
+    large (1920px): 582.0KB (-100.0%)
+    WebP: 398.3KB
+
+  Original: iphone-photography-04.jpg (13.3MB)
+    small (600px): 155.5KB (-100.0%)
+    medium (1200px): 403.5KB (-100.0%)
+    large (1920px): 829.5KB (-100.0%)
+    WebP: 574.4KB
+
+  Original: iphone-photography-12.PNG (26.1MB)
+    small (600px): 79.7KB (-100.0%)
+    medium (1200px): 223.6KB (-100.0%)
+    large (1920px): 451.6KB (-100.0%)
+    WebP: 295.3KB
+
+  Original: iphone-photography-07.jpg (27.6MB)
+    small (600px): 81.1KB (-100.0%)
+    medium (1200px): 202.3KB (-100.0%)
+    large (1920px): 572.4KB (-100.0%)
+    WebP: 414.2KB
+
+  Original: iphone-photography-13.JPG (5.7MB)
+    small (600px): 64.6KB (-100.0%)
+    medium (1200px): 151.8KB (-100.0%)
+    large (1920px): 307.2KB (-100.0%)
+    WebP: 127.8KB
+
+  Original: iphone-photography-17.JPG (4.6MB)
+    small (600px): 65.3KB (-100.0%)
+    medium (1200px): 144.3KB (-100.0%)
+    large (1920px): 270.9KB (-100.0%)
+    WebP: 118.1KB
+
+  Original: iphone-photography-03.jpg (10.3MB)
+    small (600px): 69.6KB (-100.0%)
+    medium (1200px): 123.0KB (-100.0%)
+    large (1920px): 210.4KB (-100.0%)
+    WebP: 81.6KB
+
+  Original: iphone-photography-02.jpg (12.6MB)
+    small (600px): 107.7KB (-100.0%)
+    medium (1200px): 239.2KB (-100.0%)
+    large (1920px): 456.5KB (-100.0%)
+    WebP: 263.8KB
+
+  Original: iphone-photography-16.JPG (4.5MB)
+    small (600px): 63.5KB (-100.0%)
+    medium (1200px): 139.9KB (-100.0%)
+    large (1920px): 261.9KB (-100.0%)
+    WebP: 119.6KB
+
+  Original: iphone-photography-14.JPG (5.4MB)
+    small (600px): 58.6KB (-100.0%)
+    medium (1200px): 138.6KB (-100.0%)
+    large (1920px): 282.0KB (-100.0%)
+    WebP: 112.4KB
+
+  Original: iphone-photography-15.JPG (5.4MB)
+    small (600px): 58.4KB (-100.0%)
+    medium (1200px): 136.6KB (-100.0%)
+    large (1920px): 276.6KB (-100.0%)
+    WebP: 108.2KB
+
+  Original: iphone-photography-18.JPG (4.5MB)
+    small (600px): 64.2KB (-100.0%)
+    medium (1200px): 141.4KB (-100.0%)
+    large (1920px): 264.3KB (-100.0%)
+    WebP: 115.0KB
+
+  Original: iphone-photography-19.JPG (4.6MB)
+    small (600px): 65.1KB (-100.0%)
+    medium (1200px): 144.0KB (-100.0%)
+    large (1920px): 269.1KB (-100.0%)
+    WebP: 119.1KB
+
+  Original: iphone-photography-06.HEIC (4.5MB)
+    small (600px): 152.8KB (-100.0%)
+    medium (1200px): 571.3KB (-90.0%)
+    large (1920px): 1.3MB (-80.0%)
+    WebP: 504.6KB
+
+  Original: iphone-photography-22.png (473.7KB)
+    small (600px): 45.3KB (-100.0%)
+    medium (1200px): 49.4KB (-90.0%)
+    large (1920px): 49.4KB (-90.0%)
+    WebP: 43.7KB
+
+  Original: iphone-photography-09.jpg (14.1MB)
+    small (600px): 59.0KB (-100.0%)
+    medium (1200px): 138.8KB (-100.0%)
+    large (1920px): 341.8KB (-100.0%)
+    WebP: 180.7KB
+
+  Original: iphone-photography-21.JPG (4.7MB)
+    small (600px): 67.7KB (-100.0%)
+    medium (1200px): 149.9KB (-100.0%)
+    large (1920px): 280.5KB (-100.0%)
+    WebP: 124.8KB
+
+  Original: iphone-photography-20.JPG (4.7MB)
+    small (600px): 67.1KB (-100.0%)
+    medium (1200px): 148.6KB (-100.0%)
+    large (1920px): 279.0KB (-100.0%)
+    WebP: 125.0KB
+
+  Original: iphone-photography-08.jpg (23.8MB)
+    small (600px): 78.2KB (-100.0%)
+    medium (1200px): 179.3KB (-100.0%)
+    large (1920px): 445.9KB (-100.0%)
+    WebP: 283.4KB
+
+Processing nature images from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/FOTOS/FOTOS NATUREZA
+-------------------------------------------
+  Original: nature-landscape-photography-06.jpg (534.8KB)
+    small (600px): 95.3KB (-90.0%)
+    medium (1200px): 196.7KB (-70.0%)
+    large (1920px): 196.7KB (-70.0%)
+    WebP: 163.8KB
+
+  Original: nature-landscape-photography-04.jpg (625.2KB)
+    small (600px): 124.4KB (-90.0%)
+    medium (1200px): 211.9KB (-70.0%)
+    large (1920px): 211.9KB (-70.0%)
+    WebP: 162.3KB
+
+  Original: nature-landscape-photography-05.jpg (454.8KB)
+    small (600px): 96.2KB (-80.0%)
+    medium (1200px): 128.3KB (-80.0%)
+    large (1920px): 128.3KB (-80.0%)
+    WebP: 34.1KB
+
+  Original: nature-landscape-photography-01.jpg (622.7KB)
+    small (600px): 95.3KB (-90.0%)
+    medium (1200px): 183.9KB (-80.0%)
+    large (1920px): 183.9KB (-80.0%)
+    WebP: 100.3KB
+
+  Original: nature-landscape-photography-02.jpg (879.9KB)
+    small (600px): 180.6KB (-80.0%)
+    medium (1200px): 317.5KB (-70.0%)
+    large (1920px): 317.5KB (-70.0%)
+    WebP: 177.8KB
+
+  Original: nature-landscape-photography-03.jpg (632.6KB)
+    small (600px): 140.4KB (-80.0%)
+    medium (1200px): 227.3KB (-70.0%)
+    large (1920px): 227.3KB (-70.0%)
+    WebP: 164.8KB
+
+Processing videos from: /Users/poferraz/Downloads/DEV/leozin/assets/PORTFOLIO/VIDEOS
+-----------------------------------
+  Original: afropunk-festival-brasil-documentary-1080p.mp4 (31.1MB)
+    MP4: 20.0MB (-40.0%)

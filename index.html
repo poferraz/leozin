@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leonardo Veiga - Professional photographer and filmmaker from Brazil. Specializing in nature, urban, black & white, night, and analog photography.">
+    <meta name="keywords" content="Leonardo Veiga, Leo Veiga, photographer, filmmaker, Brazil, nature photography, urban photography, black and white, night photography, analog photography">
+    <meta name="author" content="Leonardo Veiga">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Leonardo Veiga - Photographer & Filmmaker Portfolio">
+    <meta property="og:description" content="Professional photographer and filmmaker from Brazil. Specializing in nature, urban, black & white, night, and analog photography.">
+    <meta property="og:url" content="https://leonardoveiga.com">
+    <meta property="og:image" content="assets/PORTFOLIO/profile-contact.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leonardo Veiga - Photographer & Filmmaker Portfolio">
+    <meta name="twitter:description" content="Professional photographer and filmmaker from Brazil. Specializing in nature, urban, black & white, night, and analog photography.">
+    <meta name="twitter:image" content="assets/PORTFOLIO/profile-contact.jpg">
+    
+    <!-- Performance and Security -->
+    <meta name="theme-color" content="#000000">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Leonardo Veiga - Photographer & Filmmaker Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjQiIHk9IjgiIHdpZHRoPSIyNCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiNmZmZmZmYiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iNSIgZmlsbD0iIzAwMDAwMCIvPgo8Y2lyY2xlIGN4PSIyNCIgY3k9IjEyIiByPSIxIiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjEyIiB5PSI2IiB3aWR0aD0iOCIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iI2ZmZmZmZiIvPgo8L3N2Zz4K">
+    <link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjQiIHk9IjgiIHdpZHRoPSIyNCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiNmZmZmZmYiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iNSIgZmlsbD0iIzAwMDAwMCIvPgo8Y2lyY2xlIGN4PSIyNCIgY3k9IjEyIiByPSIxIiBmaWxsPSIjMDAwMDAwIi8+CjxyZWN0IHg9IjEyIiB5PSI2IiB3aWR0aD0iOCIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iI2ZmZmZmZiIvPgo8L3N2Zz4K">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #000000;
+            --bg-secondary: #111111;
+            --text-primary: #ffffff;
+            --text-secondary: #cccccc;
+            --accent: #ffffff;
+            --border: #333333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: linear-gradient(to bottom, var(--bg-primary) 0%, transparent 100%);
+        }
+
+        .logo {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 120px 40px 80px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 8vw, 96px);
+            font-weight: 500;
+            letter-spacing: -2px;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 28px);
+            color: var(--text-secondary);
+            font-weight: 400;
+            letter-spacing: -0.5px;
+        }
+
+        /* Section Container */
+        .section {
+            padding: 80px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .view-all {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .view-all:hover {
+            color: var(--text-primary);
+        }
+
+        /* Works Grid */
+        .works-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 40px;
+        }
+
+        .work-item {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: opacity 0.3s ease;
+        }
+
+        .work-item:hover {
+            opacity: 0.7;
+        }
+
+        .work-image {
+            width: 100%;
+            aspect-ratio: 4/3;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .work-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .work-item:hover .work-image img {
+            transform: scale(1.05);
+        }
+
+        .work-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 20px;
+        }
+
+        .work-title {
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            margin-bottom: 5px;
+        }
+
+        .work-category {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .work-year {
+            font-size: 14px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        /* Video Carousel */
+        .video-carousel {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        .video-carousel-container {
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .video-carousel-track {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            gap: 20px;
+        }
+
+        .video-carousel-item {
+            flex: 0 0 300px;
+            position: relative;
+            cursor: pointer;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .video-carousel-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-carousel-thumbnail {
+            width: 100%;
+            aspect-ratio: 16/9;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-carousel-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .video-carousel-item:hover .video-carousel-thumbnail img {
+            transform: scale(1.05);
+        }
+
+        .video-carousel-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .video-carousel-overlay::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 16px solid #000;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            margin-left: 3px;
+        }
+
+        .video-carousel-item:hover .video-carousel-overlay {
+            background: rgba(255, 255, 255, 1);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        .video-carousel-info {
+            padding: 20px;
+        }
+
+        .video-carousel-title {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            letter-spacing: -0.3px;
+        }
+
+        .video-carousel-category {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            z-index: 2;
+        }
+
+        .carousel-nav:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .carousel-nav.prev {
+            left: 10px;
+        }
+
+        .carousel-nav.next {
+            right: 10px;
+        }
+
+        .carousel-nav::before {
+            content: '';
+            width: 0;
+            height: 0;
+        }
+
+        .carousel-nav.prev::before {
+            border-right: 8px solid white;
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            margin-right: 2px;
+        }
+
+        .carousel-nav.next::before {
+            border-left: 8px solid white;
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            margin-left: 2px;
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .about-intro {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .about-lead {
+            font-size: 20px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            font-weight: 400;
+            letter-spacing: -0.2px;
+        }
+
+        .about-philosophy,
+        .about-expertise,
+        .about-approach {
+            margin-bottom: 60px;
+        }
+
+        .about-philosophy h3,
+        .about-expertise h3,
+        .about-approach h3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
+        }
+
+        .about-philosophy p,
+        .about-approach p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .expertise-item h4 {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+            color: var(--text-primary);
+        }
+
+        .expertise-item p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+
+
+        /* Contact Section */
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .contact-content {
+            max-width: 600px;
+        }
+
+        .contact-content h2 {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 500;
+            letter-spacing: -1px;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        .contact-content p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-link {
+            font-size: 18px;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+            display: inline-block;
+        }
+
+        .contact-image {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 3/4;
+        }
+
+        .contact-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .contact-image:hover img {
+            transform: scale(1.02);
+        }
+
+        .contact-link:hover {
+            opacity: 0.6;
+        }
+
+        /* Footer */
+        footer {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Gallery Modal Styles */
+        .gallery-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery-modal.active {
+            display: flex;
+        }
+
+        .slideshow {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide.active {
+            opacity: 1;
+        }
+
+        .slide-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .slide-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            max-width: none;
+            max-height: none;
+        }
+
+        .slide-text {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .slide-text span {
+            font-size: clamp(48px, 8vw, 120px);
+            font-weight: 300;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            line-height: 0.8;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            z-index: 1001;
+        }
+
+        .nav:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .nav.left {
+            left: 40px;
+        }
+
+        .nav.right {
+            right: 40px;
+        }
+
+        .counter {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            z-index: 1001;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .close-modal:hover {
+            transform: scale(1.2);
+        }
+
+        /* Video Modal Styles */
+        .video-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .video-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+        }
+
+        .video-modal video {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+
+
+
+        /* Work Item Cursor */
+        .work-item {
+            cursor: pointer;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 20px 20px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero {
+                padding: 100px 20px 60px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+                margin-bottom: 20px;
+            }
+
+            /* Mobile Modal Styles */
+            .slide-text {
+                bottom: 60px;
+                left: 20px;
+            }
+
+            .slide-text span {
+                font-size: clamp(24px, 6vw, 48px);
+            }
+
+            .nav {
+                width: 50px;
+                height: 50px;
+                font-size: 16px;
+            }
+
+            .nav.left {
+                left: 20px;
+            }
+
+            .nav.right {
+                right: 20px;
+            }
+
+            .counter {
+                bottom: 20px;
+                right: 20px;
+                font-size: 14px;
+            }
+
+            .close-modal {
+                top: 20px;
+                right: 20px;
+                font-size: 24px;
+            }
+
+            .section {
+                padding: 60px 20px;
+            }
+
+            .works-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            /* Mobile Video Modal Styles */
+            .video-modal-content {
+                padding: 20px;
+            }
+
+            .video-grid-content {
+                padding: 60px 20px;
+            }
+
+            .video-grid-title {
+                font-size: 32px;
+            }
+
+
+
+            /* Mobile Video Carousel */
+            .video-carousel {
+                padding: 0 20px;
+            }
+
+            .video-carousel-item {
+                flex: 0 0 280px;
+            }
+
+            .carousel-nav {
+                width: 35px;
+                height: 35px;
+            }
+
+            .carousel-nav.prev {
+                left: 5px;
+            }
+
+            .carousel-nav.next {
+                right: 5px;
+            }
+
+            .section-header {
+                flex-direction: column;
+                gap: 15px;
+                align-items: start;
+            }
+
+            /* Mobile About Styles */
+            .about-content {
+                padding: 0;
+            }
+
+            .about-intro {
+                margin-bottom: 60px;
+            }
+
+            .about-lead {
+                font-size: 18px;
+            }
+
+            .about-philosophy h3,
+            .about-expertise h3,
+            .about-approach h3 {
+                font-size: 20px;
+            }
+
+            .expertise-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            /* Mobile Contact Styles */
+            .contact-wrapper {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .contact-image {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            footer {
+                flex-direction: column;
+                gap: 20px;
+                align-items: start;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Animation styles */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .animate-on-scroll.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .animate-on-scroll.animate-out {
+            opacity: 0.3;
+            transform: translateY(-10px);
+        }
+
+        /* Hero animations */
+        .hero-animate {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .hero-animate.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .hero h1 {
+            transition-delay: 0.2s;
+        }
+
+        .hero .hero-subtitle {
+            transition-delay: 0.4s;
+        }
+
+        /* Staggered animations for grids */
+        .stagger-1 { transition-delay: 0.1s; }
+        .stagger-2 { transition-delay: 0.2s; }
+        .stagger-3 { transition-delay: 0.3s; }
+        .stagger-4 { transition-delay: 0.4s; }
+        .stagger-5 { transition-delay: 0.5s; }
+        .stagger-6 { transition-delay: 0.6s; }
+
+        /* Section titles */
+        .section-title-animate {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .section-title-animate.animate-in {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Work items hover enhancement */
+        .work-item {
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .work-item:hover {
+            opacity: 0.7;
+            transform: translateY(-5px);
+        }
+
+
+
+        /* Contact section */
+        .contact-animate {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .contact-animate.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Smooth reveal for navigation */
+        nav {
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        nav.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">LEONARDO VEIGA</div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#works">PHOTOS</a></li>
+            <li><a href="#videos">VIDEOS</a></li>
+            <li><a href="#info">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <button class="mobile-menu-btn">Menu</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 class="hero-animate">LEONARDO VEIGA</h1>
+        <p class="hero-subtitle hero-animate">PHOTOGRAPHER & FILMMAKER</p>
+    </section>
+
+    <!-- Selected Works Section -->
+    <section class="section animate-on-scroll" id="works">
+        <div class="section-header">
+            <h2 class="section-title section-title-animate">FEATURED WORK</h2>
+        </div>
+        <div class="works-grid">
+            <div class="work-item animate-on-scroll stagger-1" data-gallery="nature">
+                <div class="work-image">
+                    <picture>
+                        <source 
+                            srcset="assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-medium.webp" 
+                            type="image/webp">
+                        <img 
+                            src="assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-medium.jpg"
+                            srcset="
+                                assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-small.jpg 600w,
+                                assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-medium.jpg 1200w,
+                                assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-large.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Nature Photography - Canadian Landscapes"
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="work-meta">
+                    <div>
+                        <h3 class="work-title">NATURE COLLECTION</h3>
+                        <p class="work-category">Capturing the beauty of Canadian landscapes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-item animate-on-scroll stagger-2" data-gallery="crows">
+                <div class="work-image">
+                    <picture>
+                        <source 
+                            srcset="assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-medium.webp" 
+                            type="image/webp">
+                        <img 
+                            src="assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-medium.jpg"
+                            srcset="
+                                assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-small.jpg 600w,
+                                assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-medium.jpg 1200w,
+                                assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-large.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Crow Photography - Urban Wildlife"
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="work-meta">
+                    <div>
+                        <h3 class="work-title">CROW COLLECTION</h3>
+                        <p class="work-category">Urban wildlife and mysterious birds</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-item animate-on-scroll stagger-3" data-gallery="mushrooms">
+                <div class="work-image">
+                    <picture>
+                        <source 
+                            srcset="assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-medium.webp" 
+                            type="image/webp">
+                        <img 
+                            src="assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-medium.jpg"
+                            srcset="
+                                assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-small.jpg 600w,
+                                assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-medium.jpg 1200w,
+                                assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-large.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Mushroom Photography - Macro Forest Fungi"
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="work-meta">
+                    <div>
+                        <h3 class="work-title">MUSHROOM COLLECTION</h3>
+                        <p class="work-category">Forest fungi and macro details</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-item animate-on-scroll stagger-4" data-gallery="iphone">
+                <div class="work-image">
+                    <picture>
+                        <source 
+                            srcset="assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-medium.webp" 
+                            type="image/webp">
+                        <img 
+                            src="assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-medium.jpg"
+                            srcset="
+                                assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-small.jpg 600w,
+                                assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-medium.jpg 1200w,
+                                assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-large.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="iPhone Photography - Mobile Street Photography"
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="work-meta">
+                    <div>
+                        <h3 class="work-title">iPHONE COLLECTION</h3>
+                        <p class="work-category">Mobile photography and street moments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-item animate-on-scroll stagger-5" data-gallery="analog">
+                <div class="work-image">
+                    <picture>
+                        <source 
+                            srcset="assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-medium.webp" 
+                            type="image/webp">
+                        <img 
+                            src="assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-medium.jpg"
+                            srcset="
+                                assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-small.jpg 600w,
+                                assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-medium.jpg 1200w,
+                                assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-large.jpg 1920w
+                            "
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Analog Photography - Vintage Film Aesthetic"
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="work-meta">
+                    <div>
+                        <h3 class="work-title">ANALOG COLLECTION</h3>
+                        <p class="work-category">Film photography with vintage aesthetic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="section animate-on-scroll" id="videos">
+        <div class="section-header">
+            <h2 class="section-title section-title-animate">VIDEOS</h2>
+        </div>
+        <div class="video-carousel">
+            <div class="video-carousel-container">
+                <div class="video-carousel-track" id="videoCarouselTrack">
+                    <!-- Videos will be dynamically populated here -->
+                </div>
+            </div>
+            <button class="carousel-nav prev" id="carouselPrev" onclick="prevVideo()"></button>
+            <button class="carousel-nav next" id="carouselNext" onclick="nextVideo()"></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section animate-on-scroll" id="info">
+        <div class="section-header">
+            <h2 class="section-title section-title-animate">ABOUT</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-intro animate-on-scroll stagger-1">
+                <p class="about-lead">Based in Vancouver, Canada, I&rsquo;m a visual storyteller who believes that every frame should capture something authentic&mdash;whether it&rsquo;s the raw beauty of nature, the energy of urban life, or the quiet moments that often go unnoticed.</p>
+            </div>
+            
+            <div class="about-philosophy animate-on-scroll stagger-2">
+                <h3>My Philosophy</h3>
+                <p>Great photography starts with observation and patience. I approach each project with the understanding that the best images emerge when technique meets intuition, when preparation meets spontaneity. My work spans from the intimate textures of analog film to the crisp precision of digital capture, always seeking that moment where light, emotion, and story converge.</p>
+            </div>
+
+            <div class="about-expertise animate-on-scroll stagger-3">
+                <h3>Areas of Focus</h3>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <h4>Nature & Landscape</h4>
+                        <p>From Brazil's diverse ecosystems to Canada's vast wilderness, I capture landscapes that showcase the natural world's raw beauty and delicate balance.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h4>Urban Photography</h4>
+                        <p>Documenting the pulse of city life, architectural details, and street scenes that tell the evolving stories of modern culture.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h4>Analog & Film</h4>
+                        <p>Working with traditional film techniques to create authentic images with the unique character and organic depth that only analog photography provides.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h4>Black & White</h4>
+                        <p>Creating timeless monochrome imagery that strips away distractions to reveal pure emotion, contrast, and compositional essence.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h4>Night Photography</h4>
+                        <p>Exploring darkness and the interplay between artificial light and shadows, transforming familiar spaces into something mysterious and magical.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <h4>Filmmaking</h4>
+                        <p>Crafting visual narratives through motion, combining cinematographic techniques with compelling storytelling for documentaries and creative projects.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-approach animate-on-scroll stagger-4">
+                <h3>Creative Process</h3>
+                <p>Each project begins with understanding&mdash;understanding the subject, the environment, the story waiting to be told. I work collaboratively, whether documenting a festival&rsquo;s energy, capturing a brand&rsquo;s essence, or creating art that explores the intersection between humanity and nature. My technical expertise serves the story, never overshadows it, ensuring each image resonates with authenticity and purpose.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section animate-on-scroll" id="contact">
+        <div class="section-header">
+            <h2 class="section-title section-title-animate">GET IN TOUCH</h2>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-content contact-animate">
+                <h2>Let's create together</h2>
+                <p>Whether you need photography for your project, want to collaborate on a visual story, or just want to share thoughts about art and life, I'd love to hear from you.</p>
+                <div class="contact-links">
+                    <a href="mailto:contato@leoveiga.com" class="contact-link">EMAIL</a>
+                    <a href="https://www.instagram.com/leoveigamartins/" class="contact-link">INSTAGRAM</a>
+                    <a href="https://www.linkedin.com/in/leoveiga/" class="contact-link">LINKEDIN</a>
+                </div>
+            </div>
+            <div class="contact-image contact-animate">
+                <img 
+                    src="assets/PORTFOLIO/profile-contact.jpg"
+                    alt="Leonardo Veiga - Photographer and Filmmaker"
+                    loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Leonardo Veiga Photography. All rights reserved.</p>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="slideshow">
+            <!-- Dynamic content will be generated here -->
+        </div>
+    </div>
+
+    <!-- Video Player Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <button class="close-modal" onclick="closeVideoModal()">&times;</button>
+            <video controls controlslist="nodownload" disablepictureinpicture id="videoPlayer">
+                <!-- Video source will be dynamically set -->
+            </video>
+        </div>
+    </div>
+
+    <script>
+        // Advanced Animation System
+        class SmoothAnimations {
+            constructor() {
+                this.init();
+                this.setupHeroAnimation();
+                this.setupScrollAnimations();
+                this.setupGalleryModal();
+                this.setupVideoModal();
+                this.setupMobileMenu();
+            }
+
+            init() {
+                // Initialize navigation animation
+                setTimeout(() => {
+                    document.querySelector('nav').classList.add('loaded');
+                }, 100);
+            }
+
+            setupHeroAnimation() {
+                // Hero section load animation
+                window.addEventListener('load', () => {
+                    setTimeout(() => {
+                        document.querySelectorAll('.hero-animate').forEach(el => {
+                            el.classList.add('loaded');
+                        });
+                    }, 300);
+                });
+            }
+
+            setupScrollAnimations() {
+                // Intersection Observer for scroll animations
+                const observerOptions = {
+                    threshold: 0.2,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+
+                // Main scroll observer for fade in animations
+                const scrollObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate-in');
+                            entry.target.classList.remove('animate-out');
+                        } else {
+                            // Only fade out if we've scrolled past the element significantly
+                            const rect = entry.boundingClientRect;
+                            if (rect.bottom < window.innerHeight * 0.3) {
+                                entry.target.classList.add('animate-out');
+                                entry.target.classList.remove('animate-in');
+                            }
+                        }
+                    });
+                }, observerOptions);
+
+                // Section title observer with different timing
+                const titleObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate-in');
+                        }
+                    });
+                }, {
+                    threshold: 0.3,
+                    rootMargin: '0px 0px -80px 0px'
+                });
+
+                // Service and info block observer
+                const blockObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            // Add staggered animation delay
+                            setTimeout(() => {
+                                entry.target.classList.add('animate-in');
+                            }, this.getStaggerDelay(entry.target));
+                        }
+                    });
+                }, {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -20px 0px'
+                });
+
+                // Apply observers to elements
+                document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                    scrollObserver.observe(el);
+                });
+
+                document.querySelectorAll('.section-title-animate').forEach(el => {
+                    titleObserver.observe(el);
+                });
+
+                document.querySelectorAll('.contact-animate').forEach(el => {
+                    blockObserver.observe(el);
+                });
+            }
+
+            getStaggerDelay(element) {
+                const staggerClasses = ['stagger-1', 'stagger-2', 'stagger-3', 'stagger-4', 'stagger-5', 'stagger-6'];
+                for (let i = 0; i < staggerClasses.length; i++) {
+                    if (element.classList.contains(staggerClasses[i])) {
+                        return i * 100; // 100ms delay between elements
+                    }
+                }
+                return 0;
+            }
+
+            setupGalleryModal() {
+                // Gallery data with real optimized images - highest quality
+                const galleries = {
+                    nature: {
+                        title: "NATURE COLLECTION",
+                        images: [
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-01-large.jpg", 
+                                text: ["NATURE", "01"] 
+                            },
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-02-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-02-large.jpg", 
+                                text: ["NATURE", "02"] 
+                            },
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-03-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-03-large.jpg", 
+                                text: ["NATURE", "03"] 
+                            },
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-04-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-04-large.jpg", 
+                                text: ["NATURE", "04"] 
+                            },
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-05-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-05-large.jpg", 
+                                text: ["NATURE", "05"] 
+                            },
+                            { 
+                                webp: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-06-medium.webp",
+                                jpg: "assets/PORTFOLIO/optimized/images/nature-nature-landscape-photography-06-large.jpg", 
+                                text: ["NATURE", "06"] 
+                            }
+                        ]
+                    },
+                    crows: {
+                        title: "CROW COLLECTION",
+                        images: [
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-01-large.jpg", text: ["CROW", "01"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-02-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-02-large.jpg", text: ["CROW", "02"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-03-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-03-large.jpg", text: ["CROW", "03"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-04-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-04-large.jpg", text: ["CROW", "04"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-05-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-05-large.jpg", text: ["CROW", "05"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-06-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-06-large.jpg", text: ["CROW", "06"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-07-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-07-large.jpg", text: ["CROW", "07"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-08-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-08-large.jpg", text: ["CROW", "08"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-09-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-09-large.jpg", text: ["CROW", "09"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-10-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-10-large.jpg", text: ["CROW", "10"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-11-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-11-large.jpg", text: ["CROW", "11"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-12-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-12-large.jpg", text: ["CROW", "12"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-13-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/crows-crow-bird-photography-13-large.jpg", text: ["CROW", "13"] }
+                        ]
+                    },
+                    mushrooms: {
+                        title: "MUSHROOM COLLECTION",
+                        images: [
+                            { webp: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-01-large.jpg", text: ["MUSHROOM", "01"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-02-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-02-large.jpg", text: ["MUSHROOM", "02"] },
+                            { webp: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-03-medium.webp", jpg: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-03-large.jpg", text: ["MUSHROOM", "03"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-04-large.jpg", text: ["MUSHROOM", "04"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-05-large.jpg", text: ["MUSHROOM", "05"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-06-large.jpg", text: ["MUSHROOM", "06"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-07-large.jpg", text: ["MUSHROOM", "07"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-08-large.jpg", text: ["MUSHROOM", "08"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-09-large.jpg", text: ["MUSHROOM", "09"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-10-large.jpg", text: ["MUSHROOM", "10"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-11-large.jpg", text: ["MUSHROOM", "11"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-12-large.jpg", text: ["MUSHROOM", "12"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-13-large.jpg", text: ["MUSHROOM", "13"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-14-large.jpg", text: ["MUSHROOM", "14"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-15-large.jpg", text: ["MUSHROOM", "15"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-16-large.jpg", text: ["MUSHROOM", "16"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-17-large.jpg", text: ["MUSHROOM", "17"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-18-large.jpg", text: ["MUSHROOM", "18"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-19-large.jpg", text: ["MUSHROOM", "19"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-20-large.jpg", text: ["MUSHROOM", "20"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-21-large.jpg", text: ["MUSHROOM", "21"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-22-large.jpg", text: ["MUSHROOM", "22"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-23-large.jpg", text: ["MUSHROOM", "23"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-24-large.jpg", text: ["MUSHROOM", "24"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-25-large.jpg", text: ["MUSHROOM", "25"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-26-large.jpg", text: ["MUSHROOM", "26"] },
+                            { url: "assets/PORTFOLIO/optimized/images/mushrooms-mushroom-photography-editorial-27-large.jpg", text: ["MUSHROOM", "27"] }
+                        ]
+                    },
+                    iphone: {
+                        title: "iPHONE COLLECTION",
+                        images: [
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-01-large.jpg", text: ["iPHONE", "01"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-02-large.jpg", text: ["iPHONE", "02"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-03-large.jpg", text: ["iPHONE", "03"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-04-large.jpg", text: ["iPHONE", "04"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-05-large.jpg", text: ["iPHONE", "05"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-06-large.jpg", text: ["iPHONE", "06"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-07-large.jpg", text: ["iPHONE", "07"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-08-large.jpg", text: ["iPHONE", "08"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-09-large.jpg", text: ["iPHONE", "09"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-10-large.jpg", text: ["iPHONE", "10"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-11-large.jpg", text: ["iPHONE", "11"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-12-large.jpg", text: ["iPHONE", "12"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-13-large.jpg", text: ["iPHONE", "13"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-14-large.jpg", text: ["iPHONE", "14"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-15-large.jpg", text: ["iPHONE", "15"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-16-large.jpg", text: ["iPHONE", "16"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-17-large.jpg", text: ["iPHONE", "17"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-18-large.jpg", text: ["iPHONE", "18"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-19-large.jpg", text: ["iPHONE", "19"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-20-large.jpg", text: ["iPHONE", "20"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-21-large.jpg", text: ["iPHONE", "21"] },
+                            { url: "assets/PORTFOLIO/optimized/images/iphone-iphone-photography-22-large.jpg", text: ["iPHONE", "22"] }
+                        ]
+                    },
+                    analog: {
+                        title: "ANALOG COLLECTION",
+                        images: [
+                            { url: "assets/PORTFOLIO/optimized/images/analog-analog-film-photography-01-large.jpg", text: ["ANALOG", "01"] },
+                            { url: "assets/PORTFOLIO/optimized/images/analog-analog-film-photography-02-large.jpg", text: ["ANALOG", "02"] },
+                            { url: "assets/PORTFOLIO/optimized/images/analog-analog-film-photography-03-large.jpg", text: ["ANALOG", "03"] },
+                            { url: "assets/PORTFOLIO/optimized/images/analog-analog-film-photography-04-large.jpg", text: ["ANALOG", "04"] },
+                            { url: "assets/PORTFOLIO/optimized/images/analog-analog-film-photography-05-large.jpg", text: ["ANALOG", "05"] }
+                        ]
+                    }
+                };
+
+                let currentGallery = null;
+                let currentSlide = 0;
+                
+                const modal = document.getElementById('galleryModal');
+                const slideContainer = document.querySelector('.slideshow');
+
+                // Open modal function
+                const openGallery = (galleryType) => {
+                    currentGallery = galleries[galleryType];
+                    if (!currentGallery) return;
+                    
+                    currentSlide = 0;
+                    createSlides();
+                    modal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                };
+
+                // Create slides function with highest quality images
+                const createSlides = () => {
+                    console.log('Creating slides for gallery:', currentGallery.title);
+                    console.log('Number of images:', currentGallery.images.length);
+                    console.log('Images array:', currentGallery.images);
+                    
+                    slideContainer.innerHTML = `
+                        ${currentGallery.images.map((image, index) => {
+                            console.log(`Creating slide ${index + 1}:`, image);
+                            return `
+                            <div class="slide ${index === 0 ? 'active' : ''}">
+                                <picture class="slide-image">
+                                    ${image.webp ? `<source srcset="${image.webp}" type="image/webp">` : ''}
+                                    <img src="${image.jpg || image.url}" alt="${image.text.join(' ')}" loading="eager" style="width: 100%; height: 100%; object-fit: contain;">
+                                </picture>
+                                <div class="slide-text">
+                                    ${image.text.map(text => `<span>${text}</span>`).join('')}
+                                </div>
+                            </div>
+                        `;
+                        }).join('')}
+                        <button class="nav left" onclick="prevSlide()">&larr;</button>
+                        <button class="nav right" onclick="nextSlide()">&rarr;</button>
+                        <div class="counter">
+                            <span>${String(currentSlide + 1).padStart(2, '0')}</span> / 
+                            <span>${String(currentGallery.images.length).padStart(2, '0')}</span>
+                        </div>
+                        <button class="close-modal" onclick="closeModal()">&times;</button>
+                    `;
+                    
+                    const createdSlides = slideContainer.querySelectorAll('.slide');
+                    console.log('Created slides count:', createdSlides.length);
+                };
+
+                // Make navigation functions global for onclick access
+                window.nextSlide = () => {
+                    console.log('nextSlide called');
+                    const slides = slideContainer.querySelectorAll('.slide');
+                    console.log('Found slides:', slides.length);
+                    console.log('Current gallery:', currentGallery);
+                    console.log('Current slide:', currentSlide);
+                    
+                    if (slides.length === 0 || !currentGallery) {
+                        console.log('Returning early - no slides or gallery');
+                        return;
+                    }
+                    
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide + 1) % currentGallery.images.length;
+                    slides[currentSlide].classList.add('active');
+                    console.log('New slide index:', currentSlide);
+                    updateCounter();
+                };
+
+                window.prevSlide = () => {
+                    console.log('prevSlide called');
+                    const slides = slideContainer.querySelectorAll('.slide');
+                    console.log('Found slides:', slides.length);
+                    console.log('Current gallery:', currentGallery);
+                    console.log('Current slide:', currentSlide);
+                    
+                    if (slides.length === 0 || !currentGallery) {
+                        console.log('Returning early - no slides or gallery');
+                        return;
+                    }
+                    
+                    slides[currentSlide].classList.remove('active');
+                    currentSlide = (currentSlide - 1 + currentGallery.images.length) % currentGallery.images.length;
+                    slides[currentSlide].classList.add('active');
+                    console.log('New slide index:', currentSlide);
+                    updateCounter();
+                };
+
+                const updateCounter = () => {
+                    const counterSpans = slideContainer.querySelectorAll('.counter span');
+                    if (counterSpans.length >= 2) {
+                        counterSpans[0].textContent = String(currentSlide + 1).padStart(2, '0');
+                        counterSpans[1].textContent = String(currentGallery.images.length).padStart(2, '0');
+                    }
+                };
+
+                window.closeModal = () => {
+                    console.log('closeModal called');
+                    modal.classList.remove('active');
+                    document.body.style.overflow = '';
+                    console.log('Modal closed');
+                };
+
+                // Attach click events to work items
+                document.querySelectorAll('.work-item[data-gallery]').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const galleryType = item.getAttribute('data-gallery');
+                        openGallery(galleryType);
+                    });
+                });
+
+                // Close modal on escape key
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && modal.classList.contains('active')) {
+                        window.closeModal();
+                    }
+                    if (modal.classList.contains('active')) {
+                        if (e.key === 'ArrowLeft') window.prevSlide();
+                        if (e.key === 'ArrowRight') window.nextSlide();
+                    }
+                });
+
+                // Close modal on background click
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        window.closeModal();
+                    }
+                });
+            }
+
+            setupVideoModal() {
+                // Video collection data
+                const videoCollection = [
+                    {
+                        title: "Refugio Short Film",
+                        category: "Short Film / Documentary",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/refugio-short-film-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/refugio-short-film.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/refugio-short-film.webm"
+                    },
+                    {
+                        title: "Afropunk Festival Brasil",
+                        category: "Documentary / Event",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/afropunk-festival-brasil-documentary-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/afropunk-festival-brasil-documentary-1080p.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/afropunk-festival-brasil-documentary-1080p.webm"
+                    },
+                    {
+                        title: "Capone Club Flash Day",
+                        category: "Event / Commercial",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/capone-club-flash-day-event-video-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/capone-club-flash-day-event-video.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/capone-club-flash-day-event-video.webm"
+                    },
+                    {
+                        title: "Modular Breakfast Event",
+                        category: "Event / Documentary",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/modular-breakfast-event-video-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/modular-breakfast-event-video.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/modular-breakfast-event-video.webm"
+                    },
+                    {
+                        title: "Pinho Tattoo Studio",
+                        category: "Commercial / Teaser",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/pinho-tattoo-studio-teaser-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/pinho-tattoo-studio-teaser.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/pinho-tattoo-studio-teaser.webm"
+                    },
+                    {
+                        title: "Prince Addamo - Acoustic Performance",
+                        category: "Music / Performance",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/prince-addamo-acoustic-performance-1080p-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/prince-addamo-acoustic-performance-1080p.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/prince-addamo-acoustic-performance-1080p.webm"
+                    },
+                    {
+                        title: "Prince Addamo - Single Teaser",
+                        category: "Music / Teaser",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/prince-addamo-single-teaser-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/prince-addamo-single-teaser.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/prince-addamo-single-teaser.webm"
+                    },
+                    {
+                        title: "Crow Birds - Test Footage",
+                        category: "Experimental / Wildlife",
+                        thumbnail: "assets/PORTFOLIO/optimized/thumbnails/crow-birds-test-footage-poster.jpg",
+                        videoMp4: "assets/PORTFOLIO/optimized/videos/crow-birds-test-footage.mp4",
+                        videoWebm: "assets/PORTFOLIO/optimized/videos/crow-birds-test-footage.webm"
+                    }
+                ];
+
+                let currentVideoIndex = 0;
+                const itemsPerView = 3;
+                const itemWidth = 320; // 300px + 20px gap
+
+                // Populate the video carousel
+                const populateCarousel = () => {
+                    const track = document.getElementById('videoCarouselTrack');
+                    track.innerHTML = '';
+
+                    videoCollection.forEach((video, index) => {
+                        const item = document.createElement('div');
+                        item.className = 'video-carousel-item';
+                        item.onclick = () => window.openVideoPlayer(index);
+                        
+                        item.innerHTML = `
+                            <div class="video-carousel-thumbnail">
+                                <img src="${video.thumbnail}" alt="${video.title}" loading="lazy">
+                                <div class="video-carousel-overlay"></div>
+                            </div>
+                            <div class="video-carousel-info">
+                                <h3 class="video-carousel-title">${video.title}</h3>
+                                <p class="video-carousel-category">${video.category}</p>
+                            </div>
+                        `;
+                        
+                        track.appendChild(item);
+                    });
+                };
+
+                // Carousel navigation functions
+                window.nextVideo = () => {
+                    const maxIndex = Math.max(0, videoCollection.length - itemsPerView);
+                    if (currentVideoIndex < maxIndex) {
+                        currentVideoIndex++;
+                        updateCarousel();
+                    }
+                };
+
+                window.prevVideo = () => {
+                    if (currentVideoIndex > 0) {
+                        currentVideoIndex--;
+                        updateCarousel();
+                    }
+                };
+
+                const updateCarousel = () => {
+                    const track = document.getElementById('videoCarouselTrack');
+                    const translateX = -currentVideoIndex * itemWidth;
+                    track.style.transform = `translateX(${translateX}px)`;
+
+                    // Update navigation button states
+                    const prevBtn = document.getElementById('carouselPrev');
+                    const nextBtn = document.getElementById('carouselNext');
+                    
+                    prevBtn.style.opacity = currentVideoIndex === 0 ? '0.5' : '1';
+                    nextBtn.style.opacity = currentVideoIndex >= Math.max(0, videoCollection.length - itemsPerView) ? '0.5' : '1';
+                };
+
+                // Video player functions
+                window.openVideoPlayer = (index) => {
+                    const video = videoCollection[index];
+                    const modal = document.getElementById('videoModal');
+                    const player = document.getElementById('videoPlayer');
+                    
+                    // Pause and reset any existing video
+                    player.pause();
+                    player.currentTime = 0;
+                    
+                    // Clear existing sources completely
+                    player.innerHTML = '';
+                    player.load(); // Force reload of the video element
+                    
+                    // Add WebM source (better compression)
+                    const webmSource = document.createElement('source');
+                    webmSource.src = video.videoWebm;
+                    webmSource.type = 'video/webm';
+                    player.appendChild(webmSource);
+                    
+                    // Add MP4 source (fallback)
+                    const mp4Source = document.createElement('source');
+                    mp4Source.src = video.videoMp4;
+                    mp4Source.type = 'video/mp4';
+                    player.appendChild(mp4Source);
+                    
+                    // Force the player to load the new sources
+                    player.load();
+                    
+                    // Show modal
+                    modal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                };
+
+                window.closeVideoModal = () => {
+                    const modal = document.getElementById('videoModal');
+                    const player = document.getElementById('videoPlayer');
+                    
+                    // Stop and reset the video completely
+                    player.pause();
+                    player.currentTime = 0;
+                    
+                    // Clear all sources
+                    player.innerHTML = '';
+                    player.load(); // Force unload of video
+                    
+                    // Hide modal
+                    modal.classList.remove('active');
+                    document.body.style.overflow = '';
+                };
+
+                // Initialize carousel
+                populateCarousel();
+                updateCarousel();
+
+                // Close modal on escape key
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        if (document.getElementById('videoModal').classList.contains('active')) {
+                            window.closeVideoModal();
+                        }
+                    }
+                });
+
+                // Close modal on background click
+                document.getElementById('videoModal').addEventListener('click', (e) => {
+                    if (e.target === document.getElementById('videoModal')) {
+                        window.closeVideoModal();
+                    }
+                });
+
+                // Handle window resize
+                window.addEventListener('resize', () => {
+                    updateCarousel();
+                });
+            }
+
+            setupMobileMenu() {
+                // Mobile menu toggle with smooth animations
+                const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+                const navLinks = document.querySelector('.nav-links');
+                
+                if (mobileMenuBtn && navLinks) {
+                    mobileMenuBtn.addEventListener('click', () => {
+                        const isOpen = navLinks.style.display === 'flex';
+                        
+                        if (!isOpen) {
+                            navLinks.style.display = 'flex';
+                            navLinks.style.position = 'absolute';
+                            navLinks.style.top = '60px';
+                            navLinks.style.right = '20px';
+                            navLinks.style.background = 'var(--bg-primary)';
+                            navLinks.style.padding = '20px';
+                            navLinks.style.borderRadius = '8px';
+                            navLinks.style.flexDirection = 'column';
+                            navLinks.style.border = '1px solid var(--border)';
+                            navLinks.style.opacity = '0';
+                            navLinks.style.transform = 'translateY(-10px)';
+                            
+                            // Animate in
+                            setTimeout(() => {
+                                navLinks.style.transition = 'all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+                                navLinks.style.opacity = '1';
+                                navLinks.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            // Animate out
+                            navLinks.style.opacity = '0';
+                            navLinks.style.transform = 'translateY(-10px)';
+                            
+                            setTimeout(() => {
+                                navLinks.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                }
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Initialize animations when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new SmoothAnimations();
+        });
+
+        // Enhanced work item hover effects
+        document.addEventListener('DOMContentLoaded', () => {
+            const workItems = document.querySelectorAll('.work-item');
+            
+            workItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

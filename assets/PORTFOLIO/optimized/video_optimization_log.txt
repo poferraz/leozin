@@ -1,0 +1,56 @@
+=== Video Optimization Log ===
+Started: Thu Oct  2 13:20:34 PDT 2025
+
+Found 8 videos to process
+Processing: afropunk-festival-brasil-documentary-1080p
+  Original size: 31.13MB
+  Already optimized, skipping
+Processing: capone-club-flash-day-event-video
+  Original size: 36.70MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: crow-birds-test-footage
+  Original size: 94.28MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: modular-breakfast-event-video
+  Original size: 73.55MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: pinho-tattoo-studio-teaser
+  Original size: 28.63MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: prince-addamo-acoustic-performance-1080p
+  Original size: 111.58MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: prince-addamo-single-teaser
+  Original size: 13.06MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+Processing: refugio-short-film
+  Original size: 40.23MB
+  Failed to create H.264 MP4
+  Failed to create WebM
+  Failed to create poster frame
+  Video optimization complete
+
+=== Final Statistics ===
+Videos processed: 8/8
+Original total size: 429.20MB
+Optimized total size: 22.02MB
+Space saved: B (%)
+Completed: Thu Oct  2 13:20:36 PDT 2025

@@ -214,7 +214,7 @@
 
         /* Section Container */
         .section {
-            padding: 60px 40px;
+            padding: 80px 40px;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -223,8 +223,8 @@
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 40px;
-            padding-bottom: 16px;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
             border-bottom: 1px solid var(--border);
         }
 
@@ -350,10 +350,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            aspect-ratio: 16/9;
-            padding: 16px;
+            aspect-ratio: 21/9;
+            padding: 12px;
             position: relative;
-            max-height: 60vh;
+            max-height: 50vh;
         }
 
         .video-carousel-thumbnail {
@@ -930,6 +930,11 @@
 
             .video-carousel-item {
                 flex: 0 0 280px;
+            }
+
+            .video-carousel-content {
+                aspect-ratio: 16/9;
+                max-height: 40vh;
             }
 
             .carousel-nav {

@@ -1758,6 +1758,50 @@
                     nextBtn.style.opacity = currentVideoIndex >= videoCollection.length - itemsPerView ? '0.3' : '1';
                 };
 
+                // Touch/Swipe support for mobile
+                let touchStartX = 0;
+                let touchEndX = 0;
+                let isDragging = false;
+
+                const handleTouchStart = (e) => {
+                    touchStartX = e.touches[0].clientX;
+                    isDragging = true;
+                };
+
+                const handleTouchMove = (e) => {
+                    if (!isDragging) return;
+                    touchEndX = e.touches[0].clientX;
+                };
+
+                const handleTouchEnd = () => {
+                    if (!isDragging) return;
+                    isDragging = false;
+                    
+                    const swipeThreshold = 50; // minimum distance for swipe
+                    const diff = touchStartX - touchEndX;
+
+                    if (Math.abs(diff) > swipeThreshold) {
+                        if (diff > 0) {
+                            // Swiped left - go to next
+                            window.nextVideo();
+                        } else {
+                            // Swiped right - go to previous
+                            window.prevVideo();
+                        }
+                    }
+
+                    touchStartX = 0;
+                    touchEndX = 0;
+                };
+
+                // Add touch event listeners to carousel container
+                const carouselContainer = document.getElementById('videoCarouselTrack');
+                if (carouselContainer) {
+                    carouselContainer.addEventListener('touchstart', handleTouchStart, { passive: true });
+                    carouselContainer.addEventListener('touchmove', handleTouchMove, { passive: true });
+                    carouselContainer.addEventListener('touchend', handleTouchEnd);
+                }
+
                 // Video player functions
                 window.openVideoPlayer = (index) => {
                     const video = videoCollection[index];
